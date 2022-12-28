@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.banner{
+  height: 100vh;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.navbar{
+ display: flex;
+ width: 90%;
+ margin: auto;
+ padding: 32px 0;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.navbar ul li a:hover{
+  box-shadow: 0px 2px red;
+  transition: 1s;
+}
+
+.Logo{
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.navbar ul li{
+  list-style-type:none;
+  display: inline-block;
+  margin: 0 35px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.content{
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  color: white;
+  text-align: center;
+}
+
+.content h1{
+  font-size: 65px;
+}
+
+.content p{
+  margin: 0px auto;
+}
+
+
+button{
+  width: 200px;
+  padding: 15px 0;
+  border-radius: 35px;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  font-weight:600;
+  background-color: #6166B3;
+  font-size: 17px;
+  
+}
+button :hover{
+  color: black;
+  transition: 1s;
+}
+.fack{
+  color: #fff;
+}
+footer{
+color: rgb(255, 255, 255);
+margin: 10px;
+padding: 10px 1;
+}   
+
+.banner p{
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.resim{
+  margin:20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.resim{
+  transition: 0.5s;
+}
+.resim :hover{
+  transform: scale(1.3);
+}
+
+

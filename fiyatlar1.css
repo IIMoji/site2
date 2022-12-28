@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "article aside  section"
+    "footer section bmw "
+    ;
+}
+header{
+    grid-area: header;
+    border: thin solid black;    
+}
+
+article{
+grid-area: article; 
+border: thin solid black;    
+}
+aside{
+    grid-area: aside;
+    border: thin solid black;    
+}
+section{
+   grid-area:section ;
+   border: thin solid black;    
+}
+footer{
+    grid-area: footer;
+    border: thin solid black;
+}
+#bmw{
+    grid-area:section;  
+    border: thin solid black;
+}
+#merco{
+    grid-area: article;
+    border: thin solid black;
+}
+

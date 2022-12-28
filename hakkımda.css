@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.banner{
+    height: 110vh;
+    
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.navbar{
+   display: flex;
+   width: 90%;
+   margin: auto;
+   padding: 32px 0;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0px 2px red;
+    transition: 1s;
+}
+
+.Logo{
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.navbar ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin: 0 35px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: white;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 65px;
+}
+
+.content p{
+    margin: 20px auto;
+}
+
+
+button{
+    width: 120px;
+    height: 50px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-weight:600;
+    background-color: #6166B3;
+    font-size: 17px;
+    
+}
+button :hover{
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+.fack{
+    color: #fff;
+}
+footer{
+color: rgb(255, 255, 255);
+margin: 10px;
+padding: 10px 1;
+}   
+
+.banner p{
+ color: #fff;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+button{
+    display: flex;
+    width: 160px;
+    height: 45px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-weight:600;
+    background-color: #6166B3;
+    font-size: 17px;
+    justify-content: center;
+    align-content: center;
+    
+}
+button :hover{
+    color: black;
+    transition: 1s;
+}
+.discover-btn{
+    display:flex;
+    align-items: center;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 50px;
+    padding: 0 25px;    
+    box-shadow: 5px 7px 20px rgb(0, 0, 0);
+}
+.discover-btn a{
+    text-decoration: none;
+}
+fieldset{
+    display: inline-block center;
+    align-items: center;
+    justify-content: center;
+     box-shadow:inset 2px 2px 2px 0px rgba(255, 255, 255),
+     7px 7px 20px 0px rgba(255, 255, 255),
+     4px 4px 5px 0px rgba(255, 255, 255);
+     border: none;
+     
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    
+    
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    
+  }
+  
+  
+  
+  input,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border: none;
+  }
+  
+  
+  .frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+    
+  }
+  
+  button {
+    margin: 1px;
+  }
+  .btn {
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Tahoma', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255, 255, 255),
+     7px 7px 20px 0px rgb(255, 255, 255),
+     4px 4px 5px 0px rgb(255, 255, 255);
+    outline: none;
+  }
+  
+  .btn-1 {
+    border: none;
+    color: rgb(255, 255, 255);
+  }
+  .btn-1:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px rgb(255, 255, 255),
+     -4px -4px 5px 0px rgb(255, 255, 255),
+     7px 7px 20px 0px white(255, 255, 255),
+     4px 4px 5px 0px white(255, 255, 255);
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  .btn-1:hover {
+    color: rgb(255, 255, 255);
+  }
+  .btn-1:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  .btn-1:active {
+    top: 2px;
+  }
